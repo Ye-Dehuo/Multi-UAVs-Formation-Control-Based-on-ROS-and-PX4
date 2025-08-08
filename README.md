@@ -6,7 +6,7 @@ ROS node files in `\src` aims to realize multi-UAVs formation control. Establish
 
 
 
-The formation in this project contain $6$ UAVs ($1$ leader, $5$ followers). The followers' pose and velocity depend on the desired formation and the leader   
+The formation in this project contain $6$ UAVs ($1$ leader, $5$ followers). The followers' pose and velocity depend on the desired formation and the leader. There are position and velocity control modes for followers to select 
 
 ## 1. Task Description
 
@@ -25,7 +25,7 @@ X denotes the UAV's index here ($X =0 \sim 4$)
 ![alt](/img/init2.png)
 <p align="center"> Initialization for control </p>   
 
-![demo](/img/init and takeoff.gif)  
+![demo](/img/init_and_takeoff.gif)  
 <p align="center"> Initialization and takeoff demo </p>  
 
 (For demonstration, all videos has been sped up)
