@@ -65,3 +65,7 @@ Firstly, launch `6_uav_mavros_sitl.launch` to configure the SITL environment
 After that, launch `formation_6m_radius_6_uav.launch` to configure params for each UAV node, establish communication between the node and FCU and complete other preparations 
 
 After formation controller setup is ready and FCU communication is established, you can publish `/uavX/user` commands for further tasks
+
+## Reference
+
+[matthewoots/formation_controller_ros](https://github.com/matthewoots/formation_controller_ros)
