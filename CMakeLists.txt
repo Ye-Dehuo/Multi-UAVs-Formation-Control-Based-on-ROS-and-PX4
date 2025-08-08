@@ -59,12 +59,12 @@ include_directories(
 # add_dependencies(${PROJECT_NAME} ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 add_executable(${PROJECT_NAME}_node 
-src/main.cpp src/formation_control.cpp
+src/main.cpp src/formation_controller.cpp
 )
 
-add_executable(${PROJECT_NAME}_standalone 
-src/main_standalone.cpp
-)
+# !- add_executable(${PROJECT_NAME}_standalone 
+# src/main_standalone.cpp
+# )
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -81,6 +81,6 @@ target_link_libraries(${PROJECT_NAME}_node
   ${catkin_LIBRARIES}
 )
 
-target_link_libraries(${PROJECT_NAME}_standalone
-  ${catkin_LIBRARIES}
-)
+# !- target_link_libraries(${PROJECT_NAME}_standalone
+# ${catkin_LIBRARIES}
+# )

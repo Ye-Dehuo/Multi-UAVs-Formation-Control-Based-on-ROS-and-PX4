@@ -10,33 +10,46 @@
   <node name="formation1" output="screen" pkg="formation_controller" type="formation_controller_node">
     <param name="agent_id" value="uav1" />
     <param name="uav_id" value="1" />
-    <param name="x_offset" value="4.992285935" />
-    <param name="y_offset" value="0.27763491" />
+    <param name="x_offset" value="6" />
+    <param name="y_offset" value="0" />
     <param name="z_offset" value="0" />
+    <param name="offset_angle" value="18.0" />
     <param name="control_mode" value="0" />
   </node>
   <node name="formation2" output="screen" pkg="formation_controller" type="formation_controller_node">
     <param name="agent_id" value="uav2" />
     <param name="uav_id" value="2" />
-    <param name="x_offset" value="-0.27763491" />
-    <param name="y_offset" value="4.992285935" />
+    <param name="x_offset" value="2" />
+    <param name="y_offset" value="0" />
     <param name="z_offset" value="0" />
+    <param name="offset_angle" value="18.0" />
     <param name="control_mode" value="0" />
   </node>
   <node name="formation3" output="screen" pkg="formation_controller" type="formation_controller_node">
     <param name="agent_id" value="uav3" />
     <param name="uav_id" value="3" />
-    <param name="x_offset" value="-4.992285935" />
-    <param name="y_offset" value="-0.27763491" />
+    <param name="x_offset" value="-4" />
+    <param name="y_offset" value="0" />
     <param name="z_offset" value="0" />
+    <param name="offset_angle" value="18.0" />
     <param name="control_mode" value="0" />
   </node>
   <node name="formation4" output="screen" pkg="formation_controller" type="formation_controller_node">
     <param name="agent_id" value="uav4" />
     <param name="uav_id" value="4" />
-    <param name="x_offset" value="0.27763491" />
-    <param name="y_offset" value="-4.992285935" />
+    <param name="x_offset" value="-2" />
+    <param name="y_offset" value="0" />
     <param name="z_offset" value="0" />
+    <param name="offset_angle" value="18.0" />
+    <param name="control_mode" value="0" />
+  </node>
+    <node name="formation5" output="screen" pkg="formation_controller" type="formation_controller_node">
+    <param name="agent_id" value="uav5" />
+    <param name="uav_id" value="5" />
+    <param name="x_offset" value="4" />
+    <param name="y_offset" value="0" />
+    <param name="z_offset" value="0" />
+    <param name="offset_angle" value="18.0" />
     <param name="control_mode" value="0" />
   </node>
 </launch>
