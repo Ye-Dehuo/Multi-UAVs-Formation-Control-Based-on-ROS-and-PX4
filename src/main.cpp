@@ -1,5 +1,3 @@
-
-#include "formation.h"
 #include "formation_control.h"
 #include "csv.h"
 
