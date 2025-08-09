@@ -26,7 +26,7 @@ Public the following commands in console to realize arming, offboard mode switch
 
 `rostopic pub -1 /uavX/user std_msgs/Byte "data: 1"`
 
-X denotes the UAV's index here ($X =0 \sim 4$)
+X denotes the UAV's index here ($X =0 \sim 5$)
 
 ![alt](/img/init1.png)
 
