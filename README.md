@@ -36,7 +36,7 @@ X denotes the UAV's index here ($X =0 \sim 5$)
 ![demo](/img/init_and_takeoff.gif)  
 <p align="center"> Initialization and takeoff demo </p>  
 
-(For demonstration, all videos has been sped up)
+(For demonstration, part of demos has been sped up)
 
 ### Mission
 
